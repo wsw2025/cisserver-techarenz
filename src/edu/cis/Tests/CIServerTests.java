@@ -235,7 +235,7 @@ public class CIServerTests extends ConsoleProgram
         dup.addParam(CISConstants.ORDER_ID_PARAM, "okn90"); //steak lunch that already exists
         dup.addParam(CISConstants.ITEM_ID_PARAM, "6a6a"); //steak lunch
         dup.addParam(CISConstants.ORDER_TYPE_PARAM, "lunch"); //steak lunch
-        success = runTest(d33, true, "error");
+        success = runTest(dup, true, "error");
         total++;
         if (success)
         {
